@@ -1,0 +1,15 @@
+{
+  "name": "biorhythm-api",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "description": "Biorhythm API with 10 cycle types. Daily, forecast, critical days, compatibility. Working code samples.",
+  "license": "MIT",
+  "dependencies": {
+    "@roxyapi/sdk": "^1.2.21"
+  },
+  "scripts": {
+    "ts": "bun example.ts",
+    "js": "node example.js"
+  }
+}
