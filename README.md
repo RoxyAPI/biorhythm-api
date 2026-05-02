@@ -6,20 +6,20 @@
 
 [![Get API Key](https://img.shields.io/badge/Get_API_Key-RoxyAPI-14b8a6?style=for-the-badge&logo=key&logoColor=white)](https://roxyapi.com/pricing)
 [![Try Live](https://img.shields.io/badge/Try_API_Live-Free_in_browser-22c55e?style=for-the-badge&logo=swagger&logoColor=white)](https://roxyapi.com/api-reference)
-[![Methodology](https://img.shields.io/badge/Methodology-NASA_JPL_verified-f59e0b?style=for-the-badge&logo=nasa&logoColor=white)](https://roxyapi.com/methodology)
+[![Cycles](https://img.shields.io/badge/Cycles-10_types-f59e0b?style=for-the-badge&logo=github&logoColor=white)](https://roxyapi.com/methodology)
 [![MCP Server](https://img.shields.io/badge/MCP_Server-Streamable_HTTP-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white)](https://roxyapi.com/docs/mcp)
 [![SDK](https://img.shields.io/badge/SDK-TypeScript_+_Python-3b82f6?style=for-the-badge&logo=npm&logoColor=white)](https://roxyapi.com/docs/sdk)
 
 ## What is Biorhythm API
 
-The RoxyAPI biorhythm endpoint ships 10 cycle types (physical, emotional, intellectual, intuitive, aesthetic, awareness, spiritual, passion, mastery, wisdom) where most implementations stop at three. One RoxyAPI subscription covers 10 spiritual domains: biorhythm, Western astrology, Vedic astrology, numerology, tarot, I Ching, crystals, dreams, and angel numbers. This repo ships working TypeScript, JavaScript, and Python samples so you can drop biorhythm features into a wellness, productivity, or coaching product in minutes. The broader catalog positions include Roxy Ephemeris, verified against NASA JPL Horizons, for all positional calculations across the same subscription.
+The RoxyAPI biorhythm endpoint ships 10 cycle types (physical, emotional, intellectual, intuitive, aesthetic, awareness, spiritual, passion, mastery, wisdom) where most implementations stop at three. Cycles are pure deterministic math anchored on the days-since-birth count, seedable for per-user determinism, with no ephemeris dependency. One RoxyAPI subscription covers 10 spiritual domains: biorhythm, Western astrology, Vedic astrology, numerology, tarot, I Ching, crystals, dreams, and angel numbers. This repo ships working TypeScript, JavaScript, and Python samples so you can drop biorhythm features into a wellness, productivity, or coaching product in minutes.
 
 ## Why this API
 
 | Property | Value |
 |----------|-------|
 | Coverage | 10 spiritual domains in one subscription |
-| Calculation | Roxy Ephemeris, verified against NASA JPL Horizons |
+| Calculation | Deterministic cycle math, seedable for per-user determinism, no ephemeris dependency |
 | MCP server | `https://roxyapi.com/mcp/biorhythm` (Streamable HTTP, no local setup) |
 | SDKs | TypeScript on npm `@roxyapi/sdk`, Python on PyPI `roxy-sdk` |
 | Pricing | One key, flat per call, $39 for 25K calls |
@@ -187,7 +187,7 @@ This repo ships an [AGENTS.md](AGENTS.md) execution playbook. Cursor, Claude Cod
 
 ## Resources
 
-- [Methodology and gold standard tests](https://roxyapi.com/methodology) verified against NASA JPL Horizons
+- [Methodology and gold standard tests](https://roxyapi.com/methodology) catalog-wide testing surface (cycle math here, JPL Horizons for the ephemeris-driven domains)
 - [Full API reference](https://roxyapi.com/api-reference) interactive Scalar UI
 - [TypeScript SDK on npm](https://www.npmjs.com/package/@roxyapi/sdk)
 - [Python SDK on PyPI](https://pypi.org/project/roxy-sdk/)
@@ -204,7 +204,9 @@ This repo ships an [AGENTS.md](AGENTS.md) execution playbook. Cursor, Claude Cod
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT for this sample repo. See [LICENSE](LICENSE).
+
+**Catalog licensing:** Personal and Commercial Use. No AGPL or GPL entanglement. Full posture at [roxyapi.com/policy/license](https://roxyapi.com/policy/license).
 
 ## Contact
 
